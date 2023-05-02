@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <h3>Poem API</h3>
+    <br>
+
+    <button onclick="authorButton()">   authors    </button> 
+    <input type="text" id="authorName", value="Shakespeare">
+    <br>
+  
+    <button onclick="titleButton()" >    titles    </button>
+    <input type="text" id="titleName", value="Heaven">
+    <br>
+
+    <button onclick="authorAndTitleButton()" >    author/title    </button>
+    <br>
+    <textarea id="textArea" readonly style="height: 500px; width: 500px;">
+    </textarea>
+
+    <script>
+        const page = "https://poetrydb.org/"
+
+        function getData(url)
+        {
+            let string =''
+            let data = fetch(url)
+            data = data.then(responce => responce.json().then(chunk => 
+            {
+                
+                for(item in chunk)
+                {
+                    for(poems in chunk[item])
+                    {
+                        string = string + poems + ': ' + chunk[item][poems] + '\n'
+                        document.getElementById('textArea').value = string
+                        console.log( poems, ': ', chunk[item][poems])
+                    }
+                }
+            }));
+        }
+
+        function authorButton() 
+        {
+            
+            string = page + "author/" + document.getElementById("authorName").value;
+            getData(string);
+        }
+  
+        function titleButton() 
+        {
+            string = page + "title/" + document.getElementById("titleName").value;
+            getData(string);
+        }
+
+        function authorAndTitleButton()
+        {
+            string = page + "author,title/" + document.getElementById("authorName").value + ";" + document.getElementById("titleName").value;
+            getData(string);
+        }
+    </script>
+</body>
+  
+</html>
