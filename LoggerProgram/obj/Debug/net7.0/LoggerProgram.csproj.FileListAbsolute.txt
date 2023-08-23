@@ -1,0 +1,17 @@
+E:\Nick's stuff\Work Resume\Programs\LoggerProgram\bin\Debug\net7.0\LoggerProgram.exe
+E:\Nick's stuff\Work Resume\Programs\LoggerProgram\bin\Debug\net7.0\LoggerProgram.deps.json
+E:\Nick's stuff\Work Resume\Programs\LoggerProgram\bin\Debug\net7.0\LoggerProgram.runtimeconfig.json
+E:\Nick's stuff\Work Resume\Programs\LoggerProgram\bin\Debug\net7.0\LoggerProgram.dll
+E:\Nick's stuff\Work Resume\Programs\LoggerProgram\bin\Debug\net7.0\LoggerProgram.pdb
+E:\Nick's stuff\Work Resume\Programs\LoggerProgram\obj\Debug\net7.0\LoggerProgram.GeneratedMSBuildEditorConfig.editorconfig
+E:\Nick's stuff\Work Resume\Programs\LoggerProgram\obj\Debug\net7.0\LoggerProgram.AssemblyInfoInputs.cache
+E:\Nick's stuff\Work Resume\Programs\LoggerProgram\obj\Debug\net7.0\LoggerProgram.AssemblyInfo.cs
+E:\Nick's stuff\Work Resume\Programs\LoggerProgram\obj\Debug\net7.0\LoggerProgram.csproj.CoreCompileInputs.cache
+E:\Nick's stuff\Work Resume\Programs\LoggerProgram\obj\Debug\net7.0\LoggerProgram.dll
+E:\Nick's stuff\Work Resume\Programs\LoggerProgram\obj\Debug\net7.0\refint\LoggerProgram.dll
+E:\Nick's stuff\Work Resume\Programs\LoggerProgram\obj\Debug\net7.0\LoggerProgram.pdb
+E:\Nick's stuff\Work Resume\Programs\LoggerProgram\obj\Debug\net7.0\LoggerProgram.genruntimeconfig.cache
+E:\Nick's stuff\Work Resume\Programs\LoggerProgram\obj\Debug\net7.0\ref\LoggerProgram.dll
+E:\Nick's stuff\Work Resume\Programs\LoggerProgram\bin\Debug\net7.0\Newtonsoft.Json.dll
+E:\Nick's stuff\Work Resume\Programs\LoggerProgram\obj\Debug\net7.0\LoggerProgram.csproj.AssemblyReference.cache
+E:\Nick's stuff\Work Resume\Programs\LoggerProgram\obj\Debug\net7.0\LoggerProgram.csproj.CopyComplete
