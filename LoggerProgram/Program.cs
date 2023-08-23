@@ -22,7 +22,7 @@ namespace ConsoleLogger
     {
 
       // initial function calls
-      LoadLogsFromFile();
+      Load_Logs_From_File();
       Log_Options();
 
     }
@@ -37,9 +37,9 @@ namespace ConsoleLogger
         Console.WriteLine("\nWelcome to a string based logging program!");
         Console.WriteLine("Please make a selection:");
         Console.WriteLine("1.) Add entry.\n" +
-                          "2.) List all Logs .\n" +
-                          "3.) List saved Logs.\n" +
-                          "4.) Get Log(s).\n" +
+                          "2.) List all Logs (saved and unsaved).\n" +
+                          "3.) List saved Logs (saved only).\n" +
+                          "4.) Search Log(s).\n" +
                           "5.) Save logs to file.\n" +
                           "6.) Exit.");
 
@@ -69,7 +69,7 @@ namespace ConsoleLogger
           break;
         case 3: List_Saved_Logs();
           break;
-        case 4: Get_Log();
+        case 4: Search_Logs();
           break;
         case 5: Save_Logs();
           break;
@@ -124,7 +124,7 @@ namespace ConsoleLogger
     }
 
     // fuction requests input from user and searches all current logs saved/unsaved for matches
-    static void Get_Log()
+    static void Search_Logs()
     {
       Console.WriteLine($"\nGetting Log(s).\n" +
                         "Enter search criteria");
@@ -154,7 +154,7 @@ namespace ConsoleLogger
     }
 
     // loads all logs from the json file getting ready to add addtional logs
-    static void LoadLogsFromFile()
+    static void Load_Logs_From_File()
     {
       // try/catch file check/creation
       try

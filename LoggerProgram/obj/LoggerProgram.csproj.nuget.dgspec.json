@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Nick's stuff\\Work Resume\\Programs\\LoggerProgram\\LoggerProgram.csproj": {}
+    "e:\\Nick's stuff\\Work Resume\\Programs\\LoggerProgram\\LoggerProgram.csproj": {}
   },
   "projects": {
-    "E:\\Nick's stuff\\Work Resume\\Programs\\LoggerProgram\\LoggerProgram.csproj": {
+    "e:\\Nick's stuff\\Work Resume\\Programs\\LoggerProgram\\LoggerProgram.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Nick's stuff\\Work Resume\\Programs\\LoggerProgram\\LoggerProgram.csproj",
+        "projectUniqueName": "e:\\Nick's stuff\\Work Resume\\Programs\\LoggerProgram\\LoggerProgram.csproj",
         "projectName": "LoggerProgram",
-        "projectPath": "E:\\Nick's stuff\\Work Resume\\Programs\\LoggerProgram\\LoggerProgram.csproj",
+        "projectPath": "e:\\Nick's stuff\\Work Resume\\Programs\\LoggerProgram\\LoggerProgram.csproj",
         "packagesPath": "C:\\Users\\darkl\\.nuget\\packages\\",
-        "outputPath": "E:\\Nick's stuff\\Work Resume\\Programs\\LoggerProgram\\obj\\",
+        "outputPath": "e:\\Nick's stuff\\Work Resume\\Programs\\LoggerProgram\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\darkl\\AppData\\Roaming\\NuGet\\NuGet.Config"
